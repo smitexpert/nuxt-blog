@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins'
+}
+
+.container {
+  @apply w-3/4 flex justify-center flex-wrap;
+}
+
+.btn-hover-animation {
+  @apply transition duration-700 ease-in-out hover:duration-700
+}
+
+.pagination-btn {
+  @apply text-black font-normal text-xs px-4 py-2 rounded-full bg-white
+}
+
+.pagination-item {
+  @apply block bg-white text-xs leading-6 w-6 h-6
+}
+
+.pagination-item.active {
+  @apply bg-gray-600 text-white
+}
+
+.article p {
+  @apply text-gray-500 text-xl leading-8 my-4
+}
+
+.article blockquote {
+  @apply text-gray-800 text-xl italic leading-8 my-6 pl-4 py-2 border-l-4 border-black
+}
+
+.article h1,
+.article h2,
+.article h3,
+.article h4 {
+  @apply mt-12
+}
+
+.article h2 {
+  @apply text-3xl text-black font-bold mb-6
+}
+
+.article h3 {
+  @apply text-2xl text-black mb-6
+}
+
+.article ul {
+  @apply list-disc ml-6 text-gray-500 text-xl italic
+}
+
+.article ul li {
+  @apply mb-4
+}
