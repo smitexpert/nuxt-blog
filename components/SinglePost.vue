@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-white p-8 mt-8 mb-4">
+  <div class="w-full bg-white p-8 mb-4">
     <div class="w-full flex flex-wrap pb-4 border-b">
       <div class="w-1/2">
         <p class="text-gray-400 text-sm font-light">12 July 1995</p>

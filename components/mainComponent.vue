@@ -1,5 +1,5 @@
 <template>
-  <div class="w-2/3 h-auto mt-4">
+  <div class="w-2/3 h-auto">
     <blog-post-item :isImage='false' :color="`black`" />
     <blog-post-item :isImage='true' :color="`red`" />
 

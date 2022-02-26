@@ -14,6 +14,10 @@ body {
   @apply transition duration-700 ease-in-out hover:duration-700
 }
 
+.bg-hover-animation {
+  @apply transition duration-700 ease-in-out hover:duration-700
+}
+
 .pagination-btn {
   @apply text-black font-normal text-xs px-4 py-2 rounded-full bg-white
 }
